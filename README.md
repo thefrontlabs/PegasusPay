@@ -34,6 +34,6 @@ PegasusPay provides the infrastructure necessary for developers to integrate pay
 
 To integrate PegasusPay into your dApp:
 
-- SDK: `npm install @pegasuspay/sdk` (upcoming)
+- SDK: TBA
 - Documentation: [Coming Soon]
-- Contact: `team@pegasuspay.io`
+- Contact: TBA
