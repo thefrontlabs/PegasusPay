@@ -5,7 +5,9 @@ import page from "./assets/page.png";
 import api from "./assets/api.png";
 import tron from "./assets/tron.png";
 import archi from "./assets/archi.png";
-import bgpeg from "./assets/bg-r-pegasuspay.png";
+// import bgpeg from "./assets/bg-r-pegasuspay.png";
+import bgImage from "./assets/gradient.png";
+import top from "./assets/toppanael.png"
 export default function ProjectRoadmap() {
   const [roadmapData, setRoadmapData] = useState();
   const [selectedItem, setSelectedItem] = useState(null);
@@ -52,9 +54,12 @@ export default function ProjectRoadmap() {
   return (
     <div className="min-h-screen bg-gray-100">
       {/* Header */}
-      <header className="bg-indigo-600 text-white p-6">
+      <header className=" text-black"
+        // style={{ backgroundImage: `url(${bgImage})` }}
+      >
+        <img src={top} alt="Logo" className="w-full" 
+        />
         <div className="max-w-6xl mx-auto flex items-center justify-center flex-col">
-          <img src={bgpeg} alt="Logo" className="h-32" />
           <h1 className="text-4xl font-bold">Pegasus Pay</h1>
           <p className="mt-2 text-lg">Making it super easy to make crypto-payments to your dapps</p>
           <div className="mt-4 flex space-x-4">
