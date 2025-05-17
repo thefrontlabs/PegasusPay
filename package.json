@@ -1,5 +1,6 @@
 {
   "name": "pegasuspay-content",
+  "homepage": "https://thefrontlabs.github.io/pegasuspay",
   "private": true,
   "version": "0.0.0",
   "type": "module",
