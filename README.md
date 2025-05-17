@@ -1,5 +1,6 @@
 # PegasusPay
 
+![Pegasus-Pay](https://github.com/thefrontlabs/PegasusPay/blob/main/src/assets/toppanael.png?raw=true)
 **PegasusPay** is a crypto payment platform designed to facilitate seamless transactions for decentralized applications (dApps) within the Tron ecosystem. It enables dApps to accept and manage crypto payments natively, with plans to scale support across other blockchain platforms in the future.
 
 ## Overview
